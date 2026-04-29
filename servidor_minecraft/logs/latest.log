@@ -1,0 +1,531 @@
+[29Apr2026 06:38:13.241] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[29Apr2026 06:38:13.246] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1044-azure
+[29Apr2026 06:38:18.001] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[29Apr2026 06:38:18.091] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Cloud-Server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[29Apr2026 06:38:18.616] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Cloud-Server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[29Apr2026 06:38:18.617] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Cloud-Server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[29Apr2026 06:38:18.618] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Cloud-Server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[29Apr2026 06:38:18.619] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Cloud-Server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[29Apr2026 06:38:20.174] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[29Apr2026 06:38:20.176] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 40 dependencies adding them to mods collection
+[29Apr2026 06:38:20.625] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
+[29Apr2026 06:38:20.721] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
+[29Apr2026 06:38:20.793] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
+[29Apr2026 06:38:20.799] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/Cloud-Server/servidor_minecraft/mods/scripts as it did not exist.
+[29Apr2026 06:38:20.809] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[29Apr2026 06:38:23.548] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 2623ms
+[29Apr2026 06:38:23.549] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
+[29Apr2026 06:38:24.340] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29Apr2026 06:38:24.423] [main/ERROR] [mixin/]: Mixin config scaling_mobs.mixin.json does not specify "minVersion" property
+[29Apr2026 06:38:24.570] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[29Apr2026 06:38:24.910] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.12+mc1.20.1: 108 options available, 1 override(s) found
+[29Apr2026 06:38:24.911] [main/WARN] [ModernFix/]: Option 'mixin.perf.thread_priorities' overriden (by mods [smoothboot]) to 'false'
+[29Apr2026 06:38:24.912] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[29Apr2026 06:38:24.929] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[29Apr2026 06:38:25.034] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 146 options available, 0 override(s) found
+[29Apr2026 06:38:25.150] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Apr2026 06:38:25.167] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Apr2026 06:38:25.223] [main/INFO] [Puzzles Lib/]: Loading 100 mods:
+	- almanac 1.0.2
+	- architectury 9.2.14
+	- athena 3.1.2
+	- atlaslib 1.1.12
+	- auudio 1.0.3
+	- badmobs 19.0.4
+	- better_mob_food 1.0.0
+	- better_zombie_drops 1.0.0
+	- bookshelf 20.2.13
+	- charmofundying 6.5.0+1.20.1
+	- chunky 1.3.146
+	- citadel 2.6.1
+	- cloth_config 11.1.136
+	- clumps 12.0.0.4
+	- cofh_core 11.0.2
+	- collective 7.87
+	- commongroovylibrary 0.3.3
+	- configurableextramobdrops 3.4
+	- controlling 12.0.2
+	- corgilib 4.0.3.3
+	- coroutil 1.20.1-1.3.7
+	- corpse 1.20.1-1.0.19
+	- creativecore 2.12.28
+	- cupboard 1.20.1-2.7
+	- curios 5.11.1+1.20.1
+	- cw_additions 1.1.6
+	- dimension_access_manager 3.1.0
+	- drippyloadingscreen 3.0.9
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- entityculling 1.7.4
+	- everlastingskins 1.0
+	- fancymenu 3.3.2
+	- fastasyncworldsave 1.20.1-2.4
+	- fastbench 8.0.4
+	- fastboot 1.2
+	- fastfurnace 8.0.2
+	- fastload 3.4.0
+	- fastpaintings 1.20-1.2.7
+	- ferritecore 6.0.1
+	- firstjoinmessage 3.6
+	- forge 47.3.7
+	- forgivingworld 1.20.1-4.7
+	- framework 0.7.12
+	- geckolib 4.7
+	- glitchcore 0.0.1.1
+	- gml 4.0.9
+	- horrrs_pvz 1.81
+	- incontrol 1.20-9.2.11
+	- insanelib 1.16.1
+	- itemblacklist 1.20.1-1.0.0f
+	- jei 15.20.0.105
+	- jeresources 1.4.0.247
+	- justzoom 2.0.0
+	- konkrete 1.8.0
+	- kotlinforforge 4.11.0
+	- kubejs 2001.6.5-build.16
+	- letmedespawn 1.4.4
+	- lootr 0.7.35.90
+	- lostcities 1.20-7.3.5
+	- marbledsarsenal 1.20.1-2.3.0
+	- marbledsmelees 1.20.1-1.0.0
+	- mcore 1.0.3.0
+	- melody 1.0.2
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.1
+	- mobsunscreen 3.1.1
+	- modernfix 5.27.12+mc1.20.1
+		\-- mixinextras 0.4.1
+	- moonlight 1.20-2.13.47
+	- mutantmonsters 8.0.7
+	- nerb 0.4.1
+	- no_ruined_nether_portals 1.0.0
+	- nobabyzombies1_20_1forge 1.1
+	- noisium 2.3.0+mc1.20-1.20.1
+	- nonetherportal 1.20.1-1.0
+	- octolib 0.4.2
+	- openloader 19.0.4
+	- overworld_netherite_ore 1.0
+	- packetfixer 1.4.3
+	- pandalib 0.4.2
+	- patchouli 1.20.1-84-FORGE
+	- placebo 8.6.2
+	- playeranimator 1.0.2-rc1+1.20
+	- pointblank 1.9.6
+	- polymorph 0.49.8+1.20.1
+		\-- spectrelib 0.13.17+1.20.1
+	- puzzleslib 8.1.25
+		\-- puzzlesaccessapi 8.0.7
+	- resourcefullib 2.1.29
+	- rhino 2001.2.3-build.6
+	- scalingmobs 2.2.2
+	- searchables 1.0.3
+	- smoothboot 0.0.4
+	- starterkit 7.1
+	- structure_gel 2.16.2
+	- tacz 1.0.3
+	- tenshilib 1.20.1-1.7.6
+	- the_deep_void 1.28
+	- uteamcore 5.1.4.346
+	- voicechat 1.20.1-2.6.16
+		\-- voicechat_api 2.6.13
+[29Apr2026 06:38:25.329] [main/WARN] [mixin/]: Reference map 'packetfixer-forge-forge-refmap.json' for packetfixer-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Apr2026 06:38:25.575] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[29Apr2026 06:38:25.609] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[29Apr2026 06:38:26.444] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER
+[29Apr2026 06:38:26.445] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/MultiPlayerGameMode (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER)
+[29Apr2026 06:38:26.445] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.MultiPlayerGameMode was not found mixins.cofhcore.json:MultiPlayerGameModeMixin
+[29Apr2026 06:38:26.676] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[29Apr2026 06:38:26.677] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
+[29Apr2026 06:38:26.677] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen
+[29Apr2026 06:38:26.880] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[29Apr2026 06:38:26.880] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[29Apr2026 06:38:27.279] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[29Apr2026 06:38:27.776] [main/INFO] [Smooth Boot (Reloaded)/]: Smooth Boot (Reloaded) config initialized
+[29Apr2026 06:38:28.056] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-modernfix.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[29Apr2026 06:38:28.358] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (21.26 s after launch)
+[29Apr2026 06:38:28.672] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[29Apr2026 06:38:28.673] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[29Apr2026 06:38:29.572] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[29Apr2026 06:38:29.573] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[29Apr2026 06:38:30.876] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2503 milliseconds
+[29Apr2026 06:38:31.415] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[29Apr2026 06:38:31.416] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[29Apr2026 06:38:33.633] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[29Apr2026 06:38:34.090] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader/]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
+[29Apr2026 06:38:34.417] [modloading-worker-0/WARN] [auudio/Auudio/]: WARNING: Auudio is a client mod and has no effect when loaded on a server!
+[29Apr2026 06:38:34.456] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[29Apr2026 06:38:34.469] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
+[29Apr2026 06:38:34.476] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
+[29Apr2026 06:38:34.481] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
+[29Apr2026 06:38:34.557] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: ---------------------------------------------------------------------------------
+[29Apr2026 06:38:34.558] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod uteamcore is not signed with a valid certificate but should be signed.
+[29Apr2026 06:38:34.558] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Please download the mod only from trusted sources such as curseforge.com!
+[29Apr2026 06:38:34.558] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: ---------------------------------------------------------------------------------
+[29Apr2026 06:38:34.604] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[29Apr2026 06:38:34.605] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[29Apr2026 06:38:34.605] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[29Apr2026 06:38:34.605] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[29Apr2026 06:38:34.606] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[29Apr2026 06:38:34.612] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[29Apr2026 06:38:34.612] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[29Apr2026 06:38:34.643] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[29Apr2026 06:38:34.666] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[29Apr2026 06:38:34.666] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[29Apr2026 06:38:34.905] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 4.0.9
+[29Apr2026 06:38:35.025] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.87.
+[29Apr2026 06:38:35.039] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[29Apr2026 06:38:35.058] [modloading-worker-0/INFO] [pointblank/]: Loading mod pointblank
+[29Apr2026 06:38:35.112] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: java.nio.file.NoSuchFileException: /workspaces/Cloud-Server/servidor_minecraft/pointblank
+[29Apr2026 06:38:35.113] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+[29Apr2026 06:38:35.114] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+[29Apr2026 06:38:35.114] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+[29Apr2026 06:38:35.114] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:440)
+[29Apr2026 06:38:35.114] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:482)
+[29Apr2026 06:38:35.114] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at TRANSFORMER/pointblank@1.9.6/com.vicmatskiv.pointblank.registry.ExtensionRegistry.scanExtensions(ExtensionRegistry.java:371)
+[29Apr2026 06:38:35.114] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at TRANSFORMER/pointblank@1.9.6/com.vicmatskiv.pointblank.registry.ExtensionRegistry.discoverExtensions(ExtensionRegistry.java:242)
+[29Apr2026 06:38:35.114] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at TRANSFORMER/pointblank@1.9.6/com.vicmatskiv.pointblank.PointBlankMod.<init>(PointBlankMod.java:119)
+[29Apr2026 06:38:35.115] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[29Apr2026 06:38:35.115] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[29Apr2026 06:38:35.115] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[29Apr2026 06:38:35.115] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+[29Apr2026 06:38:35.115] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+[29Apr2026 06:38:35.115] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at LAYER PLUGIN/javafmllanguage@1.20.1-47.3.7/net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70)
+[29Apr2026 06:38:35.115] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124)
+[29Apr2026 06:38:35.115] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+[29Apr2026 06:38:35.116] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+[29Apr2026 06:38:35.116] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[29Apr2026 06:38:35.116] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[29Apr2026 06:38:35.116] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[29Apr2026 06:38:35.116] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[29Apr2026 06:38:35.117] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[29Apr2026 06:38:35.253] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[29Apr2026 06:38:35.253] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pandalib:config_sync
+[29Apr2026 06:38:35.298] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[29Apr2026 06:38:35.445] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[29Apr2026 06:38:35.487] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[29Apr2026 06:38:35.495] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[29Apr2026 06:38:35.537] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[29Apr2026 06:38:35.591] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[29Apr2026 06:38:35.627] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[29Apr2026 06:38:35.628] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[29Apr2026 06:38:35.645] [modloading-worker-0/INFO] [KubeJS/]: Done in 107.7 ms
+[29Apr2026 06:38:35.917] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[29Apr2026 06:38:35.917] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[29Apr2026 06:38:35.921] [modloading-worker-0/INFO] [de.keksuccino.drippyloadingscreen.DrippyLoadingScreen/]: [DRIPPY LOADING SCREEN] Loading v3.0.9 in server-side mode on FORGE!
+[29Apr2026 06:38:36.110] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[29Apr2026 06:38:36.117] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[29Apr2026 06:38:36.135] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[29Apr2026 06:38:36.262] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.150 s
+[29Apr2026 06:38:36.449] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.3.2 in server-side mode on FORGE!
+[29Apr2026 06:38:36.469] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[29Apr2026 06:38:36.585] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[29Apr2026 06:38:36.604] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[29Apr2026 06:38:36.607] [modloading-worker-0/INFO] [dev.tonimatas.packetfixer.PacketFixer/]: Packet Fixer has been initialized successfully
+[29Apr2026 06:38:36.791] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:cwstartuptweaks.js in 0.052 s
+[29Apr2026 06:38:36.820] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:matt's_stims_startup.js in 0.028 s
+[29Apr2026 06:38:36.821] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:disabledOres.js in 0.001 s
+[29Apr2026 06:38:36.824] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 3/3 KubeJS startup scripts in 0.559 s with 0 errors and 0 warnings
+[29Apr2026 06:38:36.881] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[29Apr2026 06:38:36.884] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[29Apr2026 06:38:36.936] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[29Apr2026 06:38:38.229] [main/INFO] [Moonlight/]: Initialized block sets in 10ms
+[29Apr2026 06:38:38.494] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[29Apr2026 06:38:38.502] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[29Apr2026 06:38:38.504] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[29Apr2026 06:38:38.506] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[29Apr2026 06:38:38.830] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[29Apr2026 06:38:38.994] [modloading-worker-0/INFO] [incontrol/]: Enabling support for Lost Cities
+[29Apr2026 06:38:38.994] [modloading-worker-0/INFO] [incontrol/]: Enabling support for Lost Cities
+[29Apr2026 06:38:39.058] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
+[29Apr2026 06:38:39.081] [modloading-worker-0/INFO] [com.forgivingworld.ForgivingWorldMod/]: forgivingworld mod initialized
+[29Apr2026 06:38:39.094] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
+[29Apr2026 06:38:39.099] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[29Apr2026 06:38:39.201] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[29Apr2026 06:38:39.207] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[29Apr2026 06:38:39.207] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[29Apr2026 06:38:39.208] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[29Apr2026 06:38:39.229] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[29Apr2026 06:38:39.233] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[29Apr2026 06:38:39.279] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.20.1
+[29Apr2026 06:38:39.867] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[29Apr2026 06:38:39.868] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[29Apr2026 06:38:39.868] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[29Apr2026 06:38:39.868] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[29Apr2026 06:38:39.868] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[29Apr2026 06:38:39.868] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[29Apr2026 06:38:39.868] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[29Apr2026 06:38:39.868] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
+[29Apr2026 06:38:39.890] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
+[29Apr2026 06:38:39.891] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[29Apr2026 06:38:39.898] [main/INFO] [Moonlight/]: Initialized color sets in 18ms
+[29Apr2026 06:38:39.988] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA_OUTDATED Current: 20.2.13 Target: 20.2.15
+[29Apr2026 06:38:39.988] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[29Apr2026 06:38:40.071] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: OUTDATED Current: 5.1.4.346 Target: 5.1.4.382
+[29Apr2026 06:38:40.072] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[29Apr2026 06:38:40.247] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[29Apr2026 06:38:40.248] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[29Apr2026 06:38:40.765] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.19 Target: 1.20.1-1.0.23
+[29Apr2026 06:38:40.766] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Starting version check at https://maven.moddinginquisition.org/releases/org/groovymc/gml/gml/forge-promotions.json
+[29Apr2026 06:38:40.924] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Apr2026 06:38:41.046] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[29Apr2026 06:38:41.225] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Found status: BETA Current: 4.0.9 Target: null
+[29Apr2026 06:38:41.226] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[29Apr2026 06:38:41.284] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Cloud-Server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23289!/assets/.mcassetsroot' uses unexpected schema
+[29Apr2026 06:38:41.284] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Cloud-Server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23289!/data/.mcassetsroot' uses unexpected schema
+[29Apr2026 06:38:41.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.3 Target: 1.0.3
+[29Apr2026 06:38:41.334] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [atlaslib] Starting version check at https://raw.githubusercontent.com/SmileycorpMC/Atlas-Lib/1.20/update.json
+[29Apr2026 06:38:41.365] [main/INFO] [Open Loader/]: Preparing Data Pack injection.
+[29Apr2026 06:38:41.369] [main/INFO] [Open Loader/]: Loaded archive Data Pack from /workspaces/Cloud-Server/servidor_minecraft/config/openloader/data/no_spore_structures.zip.
+[29Apr2026 06:38:41.369] [main/INFO] [Open Loader/]: Successfully injected 1/1 packs from /workspaces/Cloud-Server/servidor_minecraft/config/openloader/data.
+[29Apr2026 06:38:41.371] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [atlaslib] Found status: UP_TO_DATE Current: 1.1.12 Target: null
+[29Apr2026 06:38:41.371] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[29Apr2026 06:38:41.481] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23290!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23290!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[29Apr2026 06:38:41.482] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Starting version check at https://github.com/BumbleSoftware/Fastload/raw/Forge-1.20.1/updates.json
+[29Apr2026 06:38:41.543] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:itemRecipeBlacklist.js in 0.003 s
+[29Apr2026 06:38:41.544] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:cursedwalkingrecipechanges.js in 0.001 s
+[29Apr2026 06:38:41.545] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:matt's_stims_server.js in 0.001 s
+[29Apr2026 06:38:41.545] [main/INFO] [KubeJS Server/]: Loaded 3/3 KubeJS server scripts in 0.018 s with 0 errors and 0 warnings
+[29Apr2026 06:38:41.546] [main/INFO] [KubeJS Server/]: Scripts loaded
+[29Apr2026 06:38:41.559] [main/INFO] [KubeJS Server/]: Initializing recipe event...
+[29Apr2026 06:38:41.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Found status: UP_TO_DATE Current: 3.4.0 Target: null
+[29Apr2026 06:38:41.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[29Apr2026 06:38:41.624] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: OUTDATED Current: 8.0.7 Target: 8.0.8
+[29Apr2026 06:38:41.624] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[29Apr2026 06:38:41.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[29Apr2026 06:38:41.722] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
+[29Apr2026 06:38:41.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 19.0.4 Target: 19.0.4
+[29Apr2026 06:38:41.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[29Apr2026 06:38:41.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[29Apr2026 06:38:41.840] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29Apr2026 06:38:41.950] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[29Apr2026 06:38:41.952] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/main/cofh_core/update.json
+[29Apr2026 06:38:42.020] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: AHEAD Current: 11.0.2 Target: null
+[29Apr2026 06:38:42.021] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[29Apr2026 06:38:42.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.6.16 Target: null
+[29Apr2026 06:38:42.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[29Apr2026 06:38:42.138] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.47 Target: null
+[29Apr2026 06:38:42.139] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smoothboot] Starting version check at https://github.com/AbdElAziz333/SmoothBoot-Reloaded/raw/mc1.20.1/dev/updates.json
+[29Apr2026 06:38:42.186] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23290!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23290!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[29Apr2026 06:38:42.187] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[29Apr2026 06:38:42.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.25 Target: 8.1.33
+[29Apr2026 06:38:42.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [packetfixer] Starting version check at https://api.modrinth.com/updates/packet-fixer/forge_updates.json
+[29Apr2026 06:38:42.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [packetfixer] Found status: OUTDATED Current: 1.4.3 Target: 3.3.2
+[29Apr2026 06:38:42.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [openloader] Starting version check at https://updates.blamejared.com/get?n=openloader&gv=1.20.1
+[29Apr2026 06:38:42.423] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [openloader] Found status: BETA_OUTDATED Current: 19.0.4 Target: 19.0.5
+[29Apr2026 06:38:42.909] [Worker-Main-11/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_215924_ in modernfix-modernfix.mixins.json:perf.tag_id_caching.TagEntryMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[29Apr2026 06:38:43.106] [Worker-Main-14/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_3 as it is missing following references: netherite_ore_mod:ancientdebrisore (from Skay's Overworld Netherite RELEASE 1.20.1 Forge.jar), 
+	netherite_ore_mod:deepslate_ancient_debris_ore (from Skay's Overworld Netherite RELEASE 1.20.1 Forge.jar), 
+	netherite_ore_mod:netherite_ancient_debris_ore (from Skay's Overworld Netherite RELEASE 1.20.1 Forge.jar)
+[29Apr2026 06:38:43.513] [main/INFO] [KubeJS Server/]: Processing recipes...
+[29Apr2026 06:38:43.523] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_bone_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.525] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_wooden_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.527] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_diamond_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.530] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_devourer_hook_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.531] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_golden_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.534] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_boots[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.536] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_sword_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.540] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_chestplate[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.550] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_axe_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.551] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_onyx_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.554] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_helmet[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.555] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_iron_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.558] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_tongue_hook[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.560] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_stone_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.561] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_stone_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.565] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_netherite_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.566] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_golden_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.567] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_pickaxe_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.568] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_iron_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.569] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_netherite_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.571] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_leggings[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.572] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_diamond_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.573] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_wooden_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.574] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_shovel_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.584] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:void_vision_spyglass[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.587] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_shield[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.589] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_hoe_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[29Apr2026 06:38:43.592] [main/INFO] [KubeJS Server/]: Found 1690 recipes in 77.85 ms
+[29Apr2026 06:38:43.594] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_clean_block
+[29Apr2026 06:38:43.594] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_clean_block_blasting
+[29Apr2026 06:38:43.594] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_exposed_block
+[29Apr2026 06:38:43.594] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_exposed_block_blasting
+[29Apr2026 06:38:43.594] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_rusted_block
+[29Apr2026 06:38:43.594] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_rusted_block_blasting
+[29Apr2026 06:38:43.594] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_weathered_block
+[29Apr2026 06:38:43.595] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_weathered_block_blasting
+[29Apr2026 06:38:43.595] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: the_deep_void:refined_bismuth
+[29Apr2026 06:38:43.653] [main/ERROR] [KubeJS Server/]: itemRecipeBlacklist.js#63: Error in 'ServerEvents.recipes': TypeError: Cannot call method "forEach" of undefined
+[29Apr2026 06:38:43.655] [main/INFO] [KubeJS Server/]: Posted recipe events in 61.77 ms
+[29Apr2026 06:38:43.707] [main/INFO] [KubeJS Server/]: Added 0 recipes, removed 13 recipes, modified 0 recipes, with 0 failed recipes in 45.10 ms
+[29Apr2026 06:38:43.707] [main/INFO] [ModernFix/]: Clearing KubeJS recipe lists...
+[29Apr2026 06:38:43.795] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1308 advancements
+[29Apr2026 06:38:43.799] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[29Apr2026 06:38:43.803] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[29Apr2026 06:38:43.806] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[29Apr2026 06:38:43.810] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[29Apr2026 06:38:43.813] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
+[29Apr2026 06:38:43.846] [main/WARN] [ModernFix/]: Initial datapack load took 2.536 s
+[29Apr2026 06:38:43.937] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[29Apr2026 06:38:43.939] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29Apr2026 06:38:43.939] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29Apr2026 06:38:43.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Apr2026 06:38:44.155] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29Apr2026 06:38:44.183] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[29Apr2026 06:38:44.347] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[29Apr2026 06:38:44.348] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[29Apr2026 06:38:44.349] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[29Apr2026 06:38:44.349] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[29Apr2026 06:38:44.371] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: Loading "Dimension Access Manager" SERVER Config
+[29Apr2026 06:38:44.372] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: default_dimension_access_type = GRANTED
+[29Apr2026 06:38:44.372] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: dimension_command_permission_level = 3
+[29Apr2026 06:38:44.372] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: "Dimension Access Manager" SERVER Config loaded
+[29Apr2026 06:38:44.392] [Server thread/INFO] [Puzzles Lib/]: Loading server config for mutantmonsters
+[29Apr2026 06:38:44.451] [Server thread/INFO] [Framework/]: Loading server configs...
+[29Apr2026 06:38:44.490] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29Apr2026 06:38:45.004] [Server thread/INFO] [incontrol/]: Reading rules from areas.json
+[29Apr2026 06:38:45.010] [Server thread/INFO] [incontrol/]: Reading rules from spawn.json
+[29Apr2026 06:38:45.039] [Server thread/INFO] [incontrol/]: Reading rules from summonaid.json
+[29Apr2026 06:38:45.041] [Server thread/INFO] [incontrol/]: Reading rules from loot.json
+[29Apr2026 06:38:45.070] [Server thread/ERROR] [incontrol/]: Unknown item 'totem_fragments:fragment'!
+[29Apr2026 06:38:45.076] [Server thread/INFO] [incontrol/]: Reading rules from experience.json
+[29Apr2026 06:38:45.078] [Server thread/INFO] [incontrol/]: Reading rules from phases.json
+[29Apr2026 06:38:45.080] [Server thread/INFO] [incontrol/]: Reading rules from effects.json
+[29Apr2026 06:38:45.083] [Server thread/INFO] [incontrol/]: Reading rules from breakevents.json
+[29Apr2026 06:38:45.085] [Server thread/INFO] [incontrol/]: Reading rules from placeevents.json
+[29Apr2026 06:38:45.086] [Server thread/INFO] [incontrol/]: Reading rules from rightclicks.json
+[29Apr2026 06:38:45.087] [Server thread/INFO] [incontrol/]: Reading rules from leftclicks.json
+[29Apr2026 06:38:45.090] [Server thread/INFO] [incontrol/]: Reading rules from spawner.json
+[29Apr2026 06:38:45.096] [Server thread/INFO] [incontrol/]: Reading rules from events.json
+[29Apr2026 06:38:45.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Apr2026 06:38:45.277] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[29Apr2026 06:38:48.045] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 828427 ms
+[29Apr2026 06:38:48.045] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.679s)! For help, type "help"
+[29Apr2026 06:38:48.101] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29Apr2026 06:38:48.148] [Server thread/INFO] [com.technicboyman.nobz.nobabyzombies1_20_1forge.Nobabyzombies1_20_1forge/]: HELLO from server starting
+[29Apr2026 06:38:48.153] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: forgivingworld.json
+[29Apr2026 06:38:48.156] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[29Apr2026 06:38:48.177] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[29Apr2026 06:38:48.190] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'wind-packet.gl.at.ply.gg'
+[29Apr2026 06:38:48.191] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 22118
+[29Apr2026 06:38:48.191] [Server thread/WARN] [ModernFix/]: Dedicated server took 41.097 seconds to load
+[29Apr2026 06:39:07.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Whitelist is now turned on
+[29Apr2026 06:42:23.148] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@3fdd6786[id=e1b2cfc0-860b-35fe-8684-aa70d63f0fe6,name=Benjas,properties={},legacy=false] (/127.255.139.34:51071): You are not white-listed on this server!
+[29Apr2026 06:42:23.149] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3fdd6786[id=e1b2cfc0-860b-35fe-8684-aa70d63f0fe6,name=Benjas,properties={},legacy=false] (/127.255.139.34:51071) lost connection: You are not white-listed on this server!
+[29Apr2026 06:42:23.192] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29Apr2026 06:43:16.743] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@18eac6e0[id=e1b2cfc0-860b-35fe-8684-aa70d63f0fe6,name=Benjas,properties={},legacy=false] (/127.255.139.34:48475): You are not white-listed on this server!
+[29Apr2026 06:43:16.744] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@18eac6e0[id=e1b2cfc0-860b-35fe-8684-aa70d63f0fe6,name=Benjas,properties={},legacy=false] (/127.255.139.34:48475) lost connection: You are not white-listed on this server!
+[29Apr2026 06:43:16.792] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29Apr2026 06:43:25.643] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@7801b925[id=e1b2cfc0-860b-35fe-8684-aa70d63f0fe6,name=Benjas,properties={},legacy=false] (/127.255.139.34:48851): You are not white-listed on this server!
+[29Apr2026 06:43:25.644] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7801b925[id=e1b2cfc0-860b-35fe-8684-aa70d63f0fe6,name=Benjas,properties={},legacy=false] (/127.255.139.34:48851) lost connection: You are not white-listed on this server!
+[29Apr2026 06:43:25.692] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29Apr2026 06:43:41.043] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@6e41cfe3[id=e1b2cfc0-860b-35fe-8684-aa70d63f0fe6,name=Benjas,properties={},legacy=false] (/127.255.139.34:56853): You are not white-listed on this server!
+[29Apr2026 06:43:41.044] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6e41cfe3[id=e1b2cfc0-860b-35fe-8684-aa70d63f0fe6,name=Benjas,properties={},legacy=false] (/127.255.139.34:56853) lost connection: You are not white-listed on this server!
+[29Apr2026 06:43:41.092] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29Apr2026 06:44:16.243] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@589fc3df[id=e1b2cfc0-860b-35fe-8684-aa70d63f0fe6,name=Benjas,properties={},legacy=false] (/127.255.139.34:50671): You are not white-listed on this server!
+[29Apr2026 06:44:16.243] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@589fc3df[id=e1b2cfc0-860b-35fe-8684-aa70d63f0fe6,name=Benjas,properties={},legacy=false] (/127.255.139.34:50671) lost connection: You are not white-listed on this server!
+[29Apr2026 06:44:16.292] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29Apr2026 06:44:40.293] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@4a24ea65[id=e1b2cfc0-860b-35fe-8684-aa70d63f0fe6,name=Benjas,properties={},legacy=false] (/127.255.139.34:57183): You are not white-listed on this server!
+[29Apr2026 06:44:40.293] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4a24ea65[id=e1b2cfc0-860b-35fe-8684-aa70d63f0fe6,name=Benjas,properties={},legacy=false] (/127.255.139.34:57183) lost connection: You are not white-listed on this server!
+[29Apr2026 06:44:40.342] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29Apr2026 06:45:09.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Whitelist is now turned off
+[29Apr2026 06:45:20.400] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Benjas[/127.255.139.34:54287] logged in with entity id 164 at (76.69999998807907, 63.0, 198.69999998807907)
+[29Apr2026 06:45:20.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Benjas joined the game
+[29Apr2026 06:45:20.805] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Benjas (20)
+[29Apr2026 06:45:20.808] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Benjas
+[29Apr2026 06:45:24.902] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player e1b2cfc0-860b-35fe-8684-aa70d63f0fe6
+[29Apr2026 06:45:26.884] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player e1b2cfc0-860b-35fe-8684-aa70d63f0fe6
+[29Apr2026 06:45:26.886] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Benjas (e1b2cfc0-860b-35fe-8684-aa70d63f0fe6) successfully connected to voice chat
+[29Apr2026 06:45:33.161] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ReFaxio[/127.49.253.238:58405] logged in with entity id 312 at (75.69999998807907, 63.0, 197.30000001192093)
+[29Apr2026 06:45:33.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio joined the game
+[29Apr2026 06:45:37.772] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ReFaxio (20)
+[29Apr2026 06:45:37.773] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ReFaxio
+[29Apr2026 06:45:54.281] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a9427a72-3bb3-3a63-96ad-beaecc4e4951
+[29Apr2026 06:45:56.506] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a9427a72-3bb3-3a63-96ad-beaecc4e4951
+[29Apr2026 06:45:56.506] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ReFaxio (a9427a72-3bb3-3a63-96ad-beaecc4e4951) successfully connected to voice chat
+[29Apr2026 06:53:32.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio was fireballed by Blaze
+[29Apr2026 06:53:38.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 06:53:48.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio has made the advancement [Into Fire]
+[29Apr2026 06:54:24.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Benjas has made the advancement [Isn't It Iron Pick]
+[29Apr2026 06:54:52.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Benjas has made the advancement [Diamonds!]
+[29Apr2026 06:55:38.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Benjas has made the advancement [Cover Me with Diamonds]
+[29Apr2026 06:55:48.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Benjas has made the advancement [Suit Up]
+[29Apr2026 06:59:57.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio has made the advancement [Sweet Dreams]
+[29Apr2026 07:00:40.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Benjas fell from a high place
+[29Apr2026 07:00:44.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ReFaxio> XD
+[29Apr2026 07:00:49.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported Benjas to ReFaxio]
+[29Apr2026 07:01:18.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio fell from a high place
+[29Apr2026 07:04:01.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio has made the advancement [Isn't It Iron Pick]
+[29Apr2026 07:07:23.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio was slain by Zombie
+[29Apr2026 07:09:26.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio has made the advancement [Diamonds!]
+[29Apr2026 07:13:22.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio has made the advancement [Suit Up]
+[29Apr2026 07:15:13.023] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player e1b2cfc0-860b-35fe-8684-aa70d63f0fe6 timed out
+[29Apr2026 07:15:13.023] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player Benjas
+[29Apr2026 07:15:13.024] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to Benjas
+[29Apr2026 07:15:13.025] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a9427a72-3bb3-3a63-96ad-beaecc4e4951 timed out
+[29Apr2026 07:15:13.025] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player ReFaxio
+[29Apr2026 07:15:13.025] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to ReFaxio
+[29Apr2026 07:15:16.212] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a9427a72-3bb3-3a63-96ad-beaecc4e4951
+[29Apr2026 07:15:16.260] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player e1b2cfc0-860b-35fe-8684-aa70d63f0fe6
+[29Apr2026 07:15:18.215] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a9427a72-3bb3-3a63-96ad-beaecc4e4951
+[29Apr2026 07:15:18.216] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ReFaxio (a9427a72-3bb3-3a63-96ad-beaecc4e4951) successfully connected to voice chat
+[29Apr2026 07:15:18.258] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player e1b2cfc0-860b-35fe-8684-aa70d63f0fe6
+[29Apr2026 07:15:18.258] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Benjas (e1b2cfc0-860b-35fe-8684-aa70d63f0fe6) successfully connected to voice chat
+[29Apr2026 07:23:17.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Benjas was slain by Zombie
+[29Apr2026 07:23:18.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 07:23:24.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio was slain by Zombie
+[29Apr2026 07:23:28.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 07:32:09.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio was slain by Zombie
+[29Apr2026 07:32:15.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ReFaxio> yaaa
+[29Apr2026 07:32:18.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported Benjas to ReFaxio]
+[29Apr2026 07:34:16.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio was burnt to a crisp whilst fighting Benjas
+[29Apr2026 07:34:24.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported Benjas to ReFaxio]
+[29Apr2026 07:35:53.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported Benjas to ReFaxio]
+[29Apr2026 07:36:10.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio burned to death
+[29Apr2026 07:36:13.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Benjas burned to death
+[29Apr2026 07:36:19.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported Benjas to ReFaxio]
+[29Apr2026 07:37:11.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 07:38:46.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 07:38:47.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Benjas drowned
+[29Apr2026 07:38:50.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 07:39:17.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio was slain by Benjas
+[29Apr2026 07:39:28.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported Benjas to ReFaxio]
+[29Apr2026 07:40:32.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 07:41:55.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio was slain by Benjas
+[29Apr2026 07:41:58.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 07:42:16.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 07:42:40.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio was slain by Zombie
+[29Apr2026 07:42:43.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 07:42:45.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Benjas was slain by Zombie
+[29Apr2026 07:42:57.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported Benjas to ReFaxio]
+[29Apr2026 07:44:40.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 07:49:14.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 07:53:39.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Teleported ReFaxio to Benjas]
+[29Apr2026 07:56:00.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Benjas has made the advancement [Sweet Dreams]
