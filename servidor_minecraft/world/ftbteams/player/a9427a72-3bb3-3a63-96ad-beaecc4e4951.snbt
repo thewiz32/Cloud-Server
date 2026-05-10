@@ -1,0 +1,17 @@
+{
+	id: "a9427a72-3bb3-3a63-96ad-beaecc4e4951"
+	type: "player"
+	player_name: "ReFaxio"
+	ranks: {
+		a9427a72-3bb3-3a63-96ad-beaecc4e4951: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "ReFaxio"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFFE"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
